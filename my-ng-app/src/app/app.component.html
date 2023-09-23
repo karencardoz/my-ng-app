@@ -1,4 +1,5 @@
 <router-outlet></router-outlet>
 <h1>{{ title }}</h1>
-<input [(ngModel)]="favoriteAnimal" />
-<p>{{ favoriteAnimal }}</p>
+<input #phone placeholder="phone number">
+<button type="button" (click)="callPhone(phone)">Click for DOM Ref value</button>
+<button type="button" (click)="callPhone(phone.value)">Call Phone Number</button>

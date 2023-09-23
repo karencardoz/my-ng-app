@@ -7,8 +7,12 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./app.component.sass'],
 })
 export class AppComponent {
-  title: string = 'Two Way Binding Example';
-  favoriteAnimal: string = 'turtles';
+  title: string = 'Template Reference Variable';
+  phone: string = '';
 
   constructor() {}
+
+  callPhone(value: any) {
+    console.log(value);
+  }
 }
