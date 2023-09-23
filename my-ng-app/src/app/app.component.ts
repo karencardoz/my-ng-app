@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass'],
 })
 export class AppComponent {
-  title: string = 'basket of baby beavers';
-  imgSrc: string =
-    'https://cwhl.vet.cornell.edu/system/files/media/baby%20beavers%20%286%29.JPG';
+  title: string = 'Two Way Binding Example';
+  favoriteAnimal: string = 'turtles';
 
   constructor() {}
 }
