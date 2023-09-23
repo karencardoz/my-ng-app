@@ -6,12 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass'],
 })
 export class AppComponent {
-  title: string;
-  numberOne: number = 1;
-  numberTwo: number = 2;
-  togglePokemon: boolean = true;
+  title: string = 'basket of baby beavers';
+  imgSrc: string =
+    'https://cwhl.vet.cornell.edu/system/files/media/baby%20beavers%20%286%29.JPG';
 
-  constructor() {
-    this.title = 'Karen';
-  }
+  constructor() {}
 }
